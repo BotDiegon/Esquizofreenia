@@ -23,31 +23,7 @@ p {
   justify-content: center;
 
 }
-.container {
-  display: flex;
-  position: relative;
-  cursor: pointer;
-}
-.container input {
-  display: none;
-}
 
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: hsl(180, 7%, 8%);
-  border-radius: 10px;
-  transition: background-color 0.5s;
-}
-.container:hover input ~ .checkmark {
-  background-color: hsl(181, 87%, 31%);
-}
-.container input:checked + .checkmark {
-  background-color: hsl(181, 87%, 31%);
-}
 h1 {
   color: hwb(0 0% 100%);
   text-align: center;
